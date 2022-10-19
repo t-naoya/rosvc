@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
-github:
-  is_project_page: false
-title: [Robust One-Shot Singing Voice Conversion]
+title: 'Robust One-Shot Singing Voice Conversion'
+description: Naoya Takahashi, Mayank Kumar Singh, Yuki Mitsufuji
+show_downloads: true
+is_project_page: true
