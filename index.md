@@ -27,7 +27,7 @@ Note that the models are trained uging NHSS and NUS48E datasets, so this is samp
 ### Synthetic Distortion on Reference
 The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *reference* singing voices by applying reverb and mixing music.
 
-|              | Sample 1 <BR>M05(NHSS) → F05(NHSS) | Sample 2<BR> F05(NHSS) → M05(NHSS) | Sample 3<BR> F05(NHSS) → PMAR(NUS48E) |
+|              | Sample 1 <BR>M05(NHSS) → F05(NHSS) | Sample 2<BR> F05(NHSS) → M05(NHSS) | Sample 3<BR> F05(NHSS) → PMAR(NUS48E)|
 |:------------:|:-------:|:-------:|:-------:|
 |    **Source**    |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>  |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/F05_48_mix.wav"></source> </audio>   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/M05_98_mix.wav"></source> </audio> |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/PMAR_1_mix.wav"></source> </audio> |
@@ -38,13 +38,14 @@ The source and reference singers are unseen singers from the NHSS and NUS48E dat
 ### Synthetic Distortion on Source
 The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *source* singing voices by applying reverb and mixing music.
 
-|              | Sample 1 <BR>F05(NHSS) → PMAR(NUS48E) | Sample 2<BR> ZHIY(NUS48E) → PMAR(NUS48E) | Sample 2<BR> PMAR(NUS48E) → ZHIY(NUS48E) |
+|              | Sample 1 <BR>F05(NHSS) → PMAR(NUS48E) | Sample 2<BR>ZHIY(NUS48E) → PMAR(NUS48E) | Sample 2<BR>PMAR(NUS48E) → ZHIY(NUS48E) |
 |:------------:|:-------:|:-------:|:-------:|
 |    **Source**    |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/F05_48_mix.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/ZHIY_1_mix.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/PMAR_1_mix.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="CroppedSources/ZHIY_1.wav"></source> </audio> |
 |    **Separated Source**    |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_F05_48_sep.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_ZHIY_1_sep.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_PMAR_1_sep.wav"></source> </audio>  |
 |    **W/O Robustify**   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sep_TRG_clean/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sep_TRG_clean/SRC_ZHIY_1_TRG_PMAR_1.wav"></source> </audio>    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sep_TRG_clean/SRC_PMAR_1_TRG_ZHIY_1.wav"></source> </audio>     |
 | **ROSVC (Ours)** |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_ZHIY_1_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_PMAR_1_TRG_ZHIY_1.wav"></source> </audio>      |
+
 
 ### Synthetic Distortion on Source & Reference
 The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *source and reference* singing voices by applying reverb and mixing music.
