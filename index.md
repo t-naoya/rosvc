@@ -25,7 +25,7 @@ Note that the models are trained uging NHSS and NUS48E datasets, so this is samp
 
 
 ### Synthetic Distortion on Reference
-The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *reference* singing voices by applying reverb and mixing music.
+The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *reference* singing voices by applying reverb and mixing music.  
 
 |              | Sample 1 <BR>M05(NHSS) → F05(NHSS) | Sample 2<BR> F05(NHSS) → M05(NHSS) | Sample 3<BR> F05(NHSS) → PMAR(NUS48E)|
 |:------------:|:-------:|:-------:|:-------:|
@@ -34,6 +34,7 @@ The source and reference singers are unseen singers from the NHSS and NUS48E dat
 |    **Separated Target**    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_F05_48_sep.wav"></source> </audio>   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_M05_98_sep.wav"></source> </audio> |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/sep/origi_F05_48_sep.wav"></source> </audio> |
 |    **W/O Robustify**   |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sep/SRC_M05_98_TRG_F05_48.wav"></source> </audio>    |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sep/SRC_F05_48_TRG_M05_98.wav"></source> </audio>     |     <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sep/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |
 | **ROSVC (Ours)** |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sepEnh/SRC_M05_98_TRG_F05_48.wav"></source> </audio>     |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sepEnh/SRC_F05_48_TRG_M05_98.wav"></source> </audio>      |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_clean_TRG_sepEnh/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>      |
+  
 
 ### Synthetic Distortion on Source
 The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *source* singing voices by applying reverb and mixing music.
@@ -47,8 +48,9 @@ The source and reference singers are unseen singers from the NHSS and NUS48E dat
 | **ROSVC (Ours)** |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_ZHIY_1_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/SRC_sepEnh_TRG_clean/SRC_PMAR_1_TRG_ZHIY_1.wav"></source> </audio>      |
 
 
-### Synthetic Distortion on Source & Reference
+### Synthetic Distortion on Source and Reference
 The source and reference singers are unseen singers from the NHSS and NUS48E datasets. We syntheticaly distort *source and reference* singing voices by applying reverb and mixing music.
+
 |              | Sample 1<BR> M05(NHSS) → F05(NHSS) | Sample 2<BR> F05(NHSS) → M05(NHSS) |Sample 3<BR> PMAR(NUS48E) → M05(NHSS) |
 |:------------:|:-------:|:-------:|:-------:|
 |    **Source**    |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/M05_98_mix.wav"></source> </audio>   |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/F05_48_mix.wav"></source> </audio>  |    <audio controls="controls" style="width:200px;">  <source type="audio/wav" src="Samples/Distorted/mix/PMAR_1_mix.wav"></source> </audio>  |
