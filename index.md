@@ -72,7 +72,7 @@ In this section, we compare our proposed model ROSVC with the baseline, an exten
 |    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_43.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_118.wav"></source> </audio> |
 |    **UCDSVC**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/F2F/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/F2F/SRC_PMAR_43_TRG_F05_118.wav"></source> </audio>     |
-| **ROSVC** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2F/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2F/SRC_PMAR_43_TRG_F05_118.wav"></source> </audio>      |
+| **ROSVC (Ours)** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2F/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2F/SRC_PMAR_43_TRG_F05_118.wav"></source> </audio>      |
 
 ### Female to Male 
 
@@ -81,7 +81,7 @@ In this section, we compare our proposed model ROSVC with the baseline, an exten
 |    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio> |
 |    **UCDSVC**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>     |
-| **ROSVC** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>      |
+| **ROSVC (Ours)** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>      |
 
 ### Male to Female 
 
@@ -90,7 +90,7 @@ In this section, we compare our proposed model ROSVC with the baseline, an exten
 |    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_118.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio> |
 |    **UCDSVC**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/M2F/SRC_M05_118_TRG_F05_48.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/M2F/SRC_ZHIY_14_TRG_PMAR_1.wav"></source> </audio>     |
-| **ROSVC** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2F/SRC_M05_118_TRG_F05_48.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2F/SRC_ZHIY_14_TRG_PMAR_1.wav"></source> </audio>      |
+| **ROSVC (Ours)** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2F/SRC_M05_118_TRG_F05_48.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2F/SRC_ZHIY_14_TRG_PMAR_1.wav"></source> </audio>      |
 
 ### Male to Male
 
@@ -99,7 +99,7 @@ In this section, we compare our proposed model ROSVC with the baseline, an exten
 |    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>  |
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio> |
 |    **UCDSVC**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/M2M/SRC_M05_98_TRG_ZHIY_14.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/UCDSVC/M2M/SRC_ZHIY_14_TRG_M05_98.wav"></source> </audio>     |
-| **ROSVC** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2M/SRC_M05_98_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2M/SRC_ZHIY_14_TRG_M05_98.wav"></source> </audio>      |
+| **ROSVC (Ours)** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2M/SRC_M05_98_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/ROSVC/M2M/SRC_ZHIY_14_TRG_M05_98.wav"></source> </audio>      |
 
 ## Reference
 [1] A. Polyak, L. Wolf, Y. Adi, and Y. Taigman, “Unsupervised cross-domain singing voice conversion,” in Proc. ICASSP, 2020.
