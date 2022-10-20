@@ -1,5 +1,3 @@
-# ROBUST ONE-SHOT SINGING VOICE CONVERSION
-
 ## Abstruct
 Many existing works on singing voice conversion (SVC) require clean recordings of target singer’s voice for training. However, it is often difficult to collect them in advance and singing voices are often distorted with reverb and accompaniment music. In this work, we propose a robust one-shot SVC (ROSVC) that performs any-to-any SVC robustly even on such distorted singing voice using only less than 10s of a reference voice. 
 To this end, we propose a two-stage training method called **Robustify**. In the first stage, a novel one-shot SVC model based on a generative adversarial network is trained on clean data to ensure the high-quality conversion. In the second stage, enhancement modules are introduced to encoders of the model to improve the robustness against distortions in the feature space. Experimental results show that the proposed method outperforms one-shot SVC baselines for both seen and unseen singers and greatly improves the robustness against the distortions.
