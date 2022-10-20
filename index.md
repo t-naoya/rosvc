@@ -9,7 +9,7 @@ In this section, we show the robustness of our model against distortion. We perf
 
 
 ### MUSDB18
-The source and reference singers are from the MUSDB18 dataset. Singing voices are extracted by the music source separation model called <a href="https://github.com/sony/ai-research-code/tree/master/d3net">D3Net</a>.
+The source and reference singers are from the MUSDB18 dataset. Singing voices are extracted from music by the music source separation model called <a href="https://github.com/sony/ai-research-code/tree/master/d3net">D3Net</a>.
 Note that the models are trained uging NHSS and NUS48E datasets, so this is samples from **unseen domain data**.
 
 |              | Sample 1<BR>AM Contra → Carlos Gonzalez | Sample 2<BR> Mu → AM Contra | Sample 3<BR>Cristina Vane → Mu |
